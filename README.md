@@ -2,6 +2,8 @@
 
 ## Simultaneous co-op
 
+**Windows download:** [v0.1.0 release](https://github.com/gumilastik/DKC1Recomp-Coop/releases/tag/v0.1.0) · [Windows x64 ZIP](https://github.com/gumilastik/DKC1Recomp-Coop/releases/download/v0.1.0/DKC1Recomp-Coop-v0.1.0-Windows-x64.zip).
+
 This fork adds simultaneous local co-op to Donkey Kong Country: two players
 control Donkey and Diddy at the same time, with an independent camera and view
 for each Kong. Donkey's view is on top and Diddy's is below. Both views share

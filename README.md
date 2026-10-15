@@ -1,5 +1,26 @@
 # DKC1Recomp
 
+## Simultaneous co-op
+
+This fork adds simultaneous local co-op to Donkey Kong Country: two players
+control Donkey and Diddy at the same time, with an independent camera and view
+for each Kong. Donkey's view is on top and Diddy's is below. Both views share
+one game simulation; pickups, enemies and level progress are shared.
+
+Enable **Mods > Simultaneous co-op** in the desktop host and configure both
+players in **Controls**. Play with two keyboard maps, a keyboard and one
+controller, or two controllers. With one controller, it is assigned to Player 2;
+Player 1 keeps the keyboard. Player 2's default directions are I/J/K/L, with
+N for jump (B) and G for run/roll (Y).
+
+The mode carries over co-op handling for deaths and DK-barrel rescue, ropes,
+animal mounts, minecarts, HUDs and save states. The release port excludes the
+co-op debug windows and logging tools. It uses the same supported clean ROM;
+no ROM or game assets are included. See [co-op setup, building and validated
+scope](docs/COOP.md).
+
+## Original project
+
 Static recompilation of *Donkey Kong Country* (SNES, USA v1.0) into a native
 desktop application, using the project's pinned
 [`snesrecomp` fork](https://github.com/elliotttate/snesrecomp)
